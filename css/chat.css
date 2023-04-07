@@ -28,4 +28,44 @@
 }
 .chat .error{color:red;}
 .chat .success{color:green;}
+<<<<<<< Updated upstream
 .chat .msgs .msg, .chat .users .user{border-bottom:1px solid black;padding:4px 0px;white-space:pre-line;word-break:break-word;}
+=======
+.chat .msgs .msg, .chat .users .user{border-bottom:1px solid black;padding:4px 0px;white-space:pre-line;word-break:break-word;}
+
+.border{
+    border-bottom: 1px solid black;
+}
+
+.group-chat {
+    width: 700px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 110px;
+    padding-bottom: 110px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(54, 64, 110);
+    padding: 10px;
+}
+
+.chat-input {
+    padding-right: 200px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 9px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.chat-button {
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+  
+>>>>>>> Stashed changes
