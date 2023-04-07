@@ -1,6 +1,6 @@
 <?php
 include("pconfig.php");
-$sql=$dbh->prepare("SELECT * FROM private where sender=:sender and recipient=:recipient");
+$sql=$dbh->prepare("SELECT * FROM private where sender=:sender and recipient=:recipient or sender=:recipient and recipient=:sender");
 $sql->bindParam(":sender", $_SESSION['username']);
 $sql->bindParam(":recipient", $_SESSION['recipient']);
 $sql->execute();
