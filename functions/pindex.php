@@ -25,7 +25,8 @@ if (isset($_SESSION['username'])) {
 </head>
 <body>
 <div id="content" style="margin-top:10px;height:100%;">
-    <center><h1>Group Chat</h1></center>
+<div class="group-chat">
+    <center><h1>Private Chat</h1></center>
     <div class="chat">
         <div class="users">
             <?php include("pusers.php");?>
@@ -36,6 +37,7 @@ if (isset($_SESSION['username'])) {
                 include("pchatbox.php");
             }
             ?>
+        </div>
         </div>
     </div>
 </div>

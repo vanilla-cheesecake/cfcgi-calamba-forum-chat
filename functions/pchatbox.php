@@ -8,8 +8,8 @@ if(isset($_SESSION['username']) && isset($_SESSION['recipient'])){
         <?php include("pmsgs.php");?>
     </div>
     <form id="msg_form" method="post" action="psend.php">
-        <input name="msg" size="30" type="text"/>
-        <button>Send</button>
+        <input class="chat-input" name="msg" size="30" type="text"/>
+        <button class="chat-button">Send</button>
     </form>
     <?php
 }

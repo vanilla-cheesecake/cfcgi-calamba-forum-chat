@@ -1,3 +1,8 @@
+@media (max-width: 768px) {
+    /* styles for small screens */
+    
+  }
+  
 .chat .users, .chat .chatbox{
     display:inline-block;
     vertical-align:top;
@@ -6,16 +11,18 @@
     position:relative;
 }
 .chat .users{
-    background:#CCC;
+    background:#faa6a6;
     color:white;
-    width:98px;
+    width:175px;
     overflow-y:auto;
+    height: 390px;
 }
 .chat .chatbox{
-    background:#fff;
+    background:#ffdcdc;
     color:black;
     margin-left:4px;
-    width:330px;
+    width:700px;
+    height: 390px;
 }
 .chat .chatbox .msgs{
     border-top:1px solid black;
@@ -28,9 +35,7 @@
 }
 .chat .error{color:red;}
 .chat .success{color:green;}
-<<<<<<< Updated upstream
 .chat .msgs .msg, .chat .users .user{border-bottom:1px solid black;padding:4px 0px;white-space:pre-line;word-break:break-word;}
-=======
 .chat .msgs .msg, .chat .users .user{border-bottom:1px solid black;padding:4px 0px;white-space:pre-line;word-break:break-word;}
 
 .border{
@@ -39,14 +44,11 @@
 
 .group-chat {
     width: 700px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 110px;
-    padding-bottom: 110px;
     margin: auto;
     width: 50%;
     border: 3px solid rgb(54, 64, 110);
-    padding: 10px;
+    padding: 5px;
+    height: 470px;
 }
 
 .chat-input {
@@ -54,7 +56,6 @@
     padding-left: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
-    margin-top: 9px;
     font-weight: bold;
     font-size: medium;
 }
@@ -66,6 +67,6 @@
     padding-top: 10px;
     font-weight: bold;
     font-size: medium;
+    cursor: pointer;
 }
   
->>>>>>> Stashed changes
