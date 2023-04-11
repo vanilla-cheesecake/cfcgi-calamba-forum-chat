@@ -5,7 +5,8 @@
             <div class="col l6 s12">
                 <br>
                 <a class="waves-effect waves-red" href="community.html"><h4 class="white-text" style="font-family: Calibri, sans-serif; font-size:x-large;">COMMUNITY</h4></a>
-                <h6 class="grey-text text-lighten-1"><em>Join us to serve our community</em></h6>
+                <h6 class="grey-text text-lighten-1">
+                <li><a href="https://www.facebook.com/papisayks/">Developer</a></li><em>Join us to serve our community</em></h6>
                 <div class="divider grey"></div>
                 <h4 class="white-text" style="font-family: Calibri, sans-serif; font-size:x-large">CONTACT US</h4>
                 <i class="material-icons left green-text text-lighten-1 tooltipped" data-position="right" data-tooltip="09972972828 / 09476846429">call</i>
