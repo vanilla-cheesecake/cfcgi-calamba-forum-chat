@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+header {
+    background-color: #101010;
+    background-size: 100%;
+    width:100%;
+}
+header .logo-name {
+    color:#fff;
+    font-size: 2em;
+}
+.slides .list-header-1 {
+    color: #fff;
+    background-position-x: center;
+}
+.slides .list-subtext-1 {
+    color:#fff;
+    text-shadow: rgb(0, 0, 0);
+}
+.slides .list-header-2 {
+    color:#fff;
+}
+.slides .list-subtext-2 {
+    color:#fff;
+    text-shadow: rgb(0, 0, 0);
+}
+.slides .list-header-3 {
+    color:#fff;
+}
+.slides .list-subtext-3 {
+    color:#fff;
+    text-shadow: rgb(0, 0, 0);
+}
+.slides .list-header-4 {
+    color:#fff;
+}
+.slides .list-subtext-4 {
+    color:#fff;
+    text-shadow: rgb(0, 0, 0);
+}
+.section-news-events {
+    color: #000000;
+    height: max-content;
+}
+.section-news-events h4 {
+    font-family: 'Calibri', sans-serif;
+    font-size: xx-large;
+    padding-left: 5rem;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow:visible;
+}
+.page-footer {
+    background-color:rgb(41, 38, 38);
+    padding-bottom: none;
+    margin-top: none;
+    padding-top: none;
+    overflow-x: hidden;
+    overflow-y:hidden;
+}
+footer i {
+    transform: scale(1);
+    transition: 0.7s;
+}
+footer i:hover {
+    transform: scale(1) translateY(-15px);
+    cursor: pointer;
+}
+.caption h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 1em;
+    justify-content: space-between;
+}
+.caption p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1em;
+}
+.mission , .vision {
+    color: rgb(168, 51, 51);
+}
+.section.section-3 p {
+    font-family: serif;
+    font-size: larger;
+}
+.about-mission {
+    border-color:rgb(128, 122, 122) ; 
+    border-style: solid;
+    border-radius: 25px;
+    background-color: rgb(238, 192, 192);
+}
+.about-vision {
+    border-color:rgb(128, 122, 122) ; 
+    border-style: solid;
+    border-radius: 25px;
+    background-color: rgb(238, 192, 192);
+}

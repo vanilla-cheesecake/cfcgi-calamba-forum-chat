@@ -13,6 +13,7 @@ include("login.php");
     <title>Group Chat</title>
 </head>
 <body>
+    
 <div id="content" style="margin-top:10px;height:100%;">
     <div class="group-chat">
         <center><h1>Group Chat</h1></center>
