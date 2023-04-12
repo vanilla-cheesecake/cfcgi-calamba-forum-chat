@@ -30,7 +30,7 @@
                 <a class="navbar-brand page-scroll" href="home.php"></a>
             </div>
             <div class="navbar-header">
-                <a class="navbar-brand" href="http://localhost/cfgi-calamba-forum-chat/index.php">DISCUSSION FORUM</a>
+                <a class="navbar-brand" href="http://localhost/cfgi-calamba-forum-chat/index.php">Community Force for Common Good Incorporated</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
